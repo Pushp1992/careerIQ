@@ -1,0 +1,170 @@
+/*mainDiv*/
+
+.mainDiv {
+    /* background-color: bisque; */
+    background-image: url('../images/bg.jpg');
+    position: absolute;
+    padding-top: 10px;
+}
+
+/*courseIntro*/
+
+.courseIntro {
+    background-color: rgb(78, 75, 75);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 65%;
+}
+
+.courseLogo {
+    width: 60px;
+    height: 60px;
+    margin-left: 45%;
+}
+
+#head3 {
+    color: springgreen;
+}
+
+.smallHead {
+    color: white;
+}
+
+#courseHead1 {
+    margin-left: 37%;
+    letter-spacing: 5px;
+}
+
+#courseHead11 {
+    margin-left: 45%;
+}
+
+#courseHead12 {
+    margin-left: 20%;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+}
+
+#courseHead2 {
+    margin-left: 35%;
+}
+
+#courseHead3 {
+    margin-left: 4%;
+}
+
+#myBtn {
+    margin-left: 37%;
+}
+
+/*courseTopic*/
+
+/*courseTopic < courseTopicImg*/
+
+.courseTopicImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 80%;
+    animation-name: pulse;
+    animation-duration: 5s;
+}
+
+/*courseTopic < courseTitle*/
+
+.courseTitle {
+    display: block;
+    padding-left: 35%;
+    padding-top: 6%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: crimson;
+}
+
+/*lineBreak*/
+
+#lineBreak {
+    padding-left: 20%;
+}
+
+/*courseContent*/
+
+.courseContent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*courseData*/
+
+.courseData {
+    background-color: rgb(107, 103, 103);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/*JSON DATA*/
+
+.courseContent {
+    padding-left: 25%;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+}
+
+/*courseName*/
+
+.courseName {
+    color: rgb(180, 180, 33);
+    padding-left: 2%;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.courseID {
+    color: rgb(12, 240, 12);
+    padding-left: 2%;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.courseDesc {
+    color: white;
+    padding-left: 2%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+/*featuredCourse*/
+
+.featuredCourse {
+    width: 60%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+#tHead {
+    position: absolute;
+    padding-left: 40%;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+.courseImg {
+    padding-left: 5%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!--Custom CSS files-->
+    <link rel="stylesheet" type="text/css" href="app/styles/ml-tutorial.css" />
+    <title>TRADING with MACHINE LEARNING</title>
+</head>
+
+<body ng-app="myApp">
+
+    <!--viewport for the Login Page-->
+    <div class="container-fluid">
+        <div ui-view> </div>
+    </div>
+
+    <!-- scripts -->
+
+    <!-- node modules -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-resource/angular-resource.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="node_modules/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <!--Main module-->
+    <script src="app/app.module.js"></script>
+
+    <!-- MachineLearningTutorial Module -->
+    <script src="app/MachineLearningTutorial/machine-learning.module.js"></script>
+    <script src="app/MachineLearningTutorial/machine-learning.route.js"></script>
+    <script src="app/MachineLearningTutorial/machine-learning.controller.js"></script>
+    <script src="app/MachineLearningTutorial/machine-learning.service.js"></script>
+
+</body>
+</html>

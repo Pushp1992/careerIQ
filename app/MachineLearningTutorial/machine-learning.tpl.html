@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ML Tutorial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+
+    <div class="container-fluid mainDiv">
+        <!--main div-->
+        <br/>
+        <br/>
+        <div class="courseIntro">
+            <!--courseIntro-->
+            <table class="container">
+                <tr class="row-md-12">
+                    <img ng-src="app/images/innerLogo.svg" class="courseLogo"> </tr>
+                <tr class="row-md-12">
+                    <h3 id="head3">
+                        <span id="courseHead1">TRADING</span>
+                        <br/>
+                        <small class="smallHead">
+                            <span id="courseHead11">WITH</span>
+                        </small>
+                        <br/>
+                        <span id="courseHead12">MACHINE LEARNING</span>
+                    </h3>
+                </tr>
+                <br/>
+                <tr class="row-md-12">
+                    <span class="smallHead" id="courseHead2">(3 - COURSE BUNDLE)</span>
+                </tr>
+                <br/>
+                <br/>
+                <tr class="row-md-12">
+                    <span class="smallHead">
+                        <dd id="courseHead3"> Learn Python for Finanace from scratch with Lots of Interactive Coding exercise
+                            <br/> and state of the art, jupyter notebook. Learn to code and backtest your own.
+                        </dd>
+                    </span>
+                </tr>
+                <tr class="row-md-12">
+                    <span>
+                        <button id="myBtn" type="button" ng-model="MachineLearningCtrl.enroll" class="btn btn-success">ENROLL NOW</button>
+                    </span>
+                </tr>
+
+            </table>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <div class="row-md-12 container courseTopic">
+            <!--courseTopic-->
+            <div class="col-md-4">
+                <a ui-sref="MLtutorial.course1">
+                    <img ng-src="app/images/ITMLR.png" class="thumbnail courseTopicImg">
+                </a>
+                <span class="courseTitle">COURSE 1</span>
+            </div>
+
+            <div class="col-md-4">
+                <a ui-sref="MLtutorial.course2">
+                    <img ng-src="app/images/MLR.png" class="thumbnail courseTopicImg">
+                </a>
+                <span class="courseTitle">COURSE 2</span>
+            </div>
+
+            <div class="col-md-4">
+                <a ui-sref="MLtutorial.course3">
+                    <img ng-src="app/images/MLC.png" class="thumbnail courseTopicImg">
+                </a>
+                <span class="courseTitle">COURSE 3</span>
+            </div>
+        </div>
+        <div class="container-fluid" id="lineBreak">
+            <hr style="border-top: 1px solid #ccc; background: transparent; width: 70%;">
+            <!--Line break-->
+        </div>
+        <div class="container">
+            <!--JSON data-->
+            <h2 class="courseContent">WHAT WILL YOU LEARN ?</h2>
+            <br/>
+            <div ui-view></div>
+        </div>
+        <table class="container">
+            <!--Course Features-->
+            <h3 id="tHead">COURSE FEATURES</h3>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <tr class="row-md-8 container">
+                <td class="col-md-4">
+                    <img ng-src="app/images/interactive.png" class="courseImg">
+                    <br/>
+                    <div class="featuredCourse">
+                        <span>INTERACTIVE CODING
+                            <br/>EXERCISES</span>
+                    </div>
+                </td>
+                <td class="col-md-4">
+                    <img ng-src="app/images/downloadable-code.png" class="courseImg">
+                    <br/>
+                    <div class="featuredCourse">
+                        <span>DOWNLOADABLE
+                            <br/>STRATEGY CODE</span>
+                    </div>
+                </td>
+            </tr>
+            <tr class="row-md-8 container">
+                <td class="col-md-4">
+                    <img ng-src="app/images/certification.png" class="courseImg">
+                    <br/>
+                    <div class="featuredCourse">
+                        <span>CERTIFICATION FROM
+                            <br/>QUANTINSTI & MCX</span>
+                    </div>
+                </td>
+                <td class="col-md-4">
+                    <img ng-src="app/images/infinite.png" class="courseImg">
+                    <br/>
+                    <div class="featuredCourse">
+                        <span>LIFETIME COURSE
+                            <br/> ACCESS</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br/>
+    </div>
+</body>
+
+</html>
